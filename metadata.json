@@ -1,0 +1,6 @@
+{
+  "name": "Viet P2P - Vay Tín Chấp Cá Nhân Online",
+  "description": "Nền tảng vay tín chấp cá nhân online uy tín, duyệt hồ sơ nhanh, lãi suất minh bạch, chuẩn SEO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
