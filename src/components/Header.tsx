@@ -150,14 +150,14 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           </div>
 
-          <button
+          {/* <button
             onClick={() => handleNavClick('guide')}
             className={`px-3 py-2 rounded-lg transition-colors ${
               currentRoute === 'guide' ? 'text-[#006837] bg-emerald-50' : 'hover:text-[#006837] hover:bg-slate-100'
             }`}
           >
             Hướng dẫn
-          </button>
+          </button> */}
 
           <button
             onClick={() => handleNavClick('about')}
@@ -232,12 +232,12 @@ export const Header: React.FC<HeaderProps> = ({
             >
               Vay tín chấp
             </button>
-            <button
+            {/* <button
               onClick={() => handleNavClick('guide')}
               className={`text-left px-3 py-2 rounded-lg ${currentRoute === 'guide' ? 'bg-emerald-50 text-[#006837]' : ''}`}
             >
               Hướng dẫn
-            </button>
+            </button> */}
             <button
               onClick={() => handleNavClick('about')}
               className={`text-left px-3 py-2 rounded-lg ${currentRoute === 'about' ? 'bg-emerald-50 text-[#006837]' : ''}`}
